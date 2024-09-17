@@ -7,7 +7,7 @@
 
 Overview of entire PowerAutomate Flow
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/01.%20Protect%20School%20Connector%20Full.png)
 
 
 
@@ -18,7 +18,7 @@ INSERT IMAGE
 * Select `Anyone` in the **`who can trigger this flow`** box
 * Provide `sample data` from the **Jamf Protect Data** postman collection
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/02.%20First%20Trigger%20Block.png)
 
 ---
 ###2. Filter Out Prevented Threats
@@ -28,7 +28,7 @@ INSERT IMAGE
 * Select `is equal to` in the next drop down menu
 * Add `true` in the final box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/03.%20Threat%20Prevention%20Filter.png)
 
 ---
 ###3. Filter Out Informational Events
@@ -38,7 +38,7 @@ INSERT IMAGE
 * Select `is equal to` in the next drop down menu
 * Add `0` in the final box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/04.%20Informational%20Filter.png)
 
 ---
 ###4. GET Devices API call to Jamf School
@@ -49,7 +49,7 @@ INSERT IMAGE
 * Select `serial` from the data coming in from the HTTP trigger (aka Jamf Protect)
 * Fill in the relivent settings, including `Authenication Type` to complete the API call (Viewthe [Jamf School API Documentation](https://school.jamfcloud.com/api/docs/) for more information on this)
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/05.%20GET%20Devices%20API.png)
 
 ---
 ###5. Error Handle API Call
@@ -59,7 +59,7 @@ INSERT IMAGE
 * Select `is equal to` in the next drop down menu
 * Add `200` in the final box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/06.%20API%20Call%20Success.png)
 
 ---
 ###6. Parse JSON Object
@@ -67,7 +67,7 @@ INSERT IMAGE
 * Add a `Parse JSON` block to the `true` arm of the prevouis block
 * Provide `sample data` from the **Jamf School API** postman collection by completing a `Get Devices` call in postman and copy/pasting the reponse body into the `sample data` box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/07.%20Parse%20JSON.png)
 
 ---
 ###7. Provide a Switch Block
@@ -75,7 +75,7 @@ INSERT IMAGE
 * Add a `switch` block to the previous block
 * Set the **`Value`** to `severity` from the data coming in from the HTTP trigger (aka Jamf Protect)
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/08.%20Severity%20Switch.png)
 
 ---
 ###8. Build Severity Routing
@@ -83,7 +83,7 @@ INSERT IMAGE
 * Add a `switch condition` by clicking on the `+` under the `switch` block
 * Set the **`Parameters`** value to `1`
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/09.%20Low%20Switch.png)
 
 ---
 ###9. Create API Call To Move Device To Static Group
@@ -95,7 +95,7 @@ INSERT IMAGE
 * Replace `<DYNAMIC VALUE>` with `UDID` from the data coming from the parsed JSON data
 * Fill in the relivent settings, including `Authenication Type` to complete the API call (Viewthe [Jamf School API Documentation](https://school.jamfcloud.com/api/docs/) for more information on this)
 
-INSERT IMAGE
+https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/11.%20Group%20API.png
 
 ---
 ###10. Build All Severity Routing Options
