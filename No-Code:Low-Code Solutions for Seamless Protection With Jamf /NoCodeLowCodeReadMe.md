@@ -105,6 +105,18 @@ The script requires that swiftDialog is installed on the end user device prior t
 
 ---
 
+### Aftermath
+
+<img src="https://github.com/jamf/aftermath/blob/main/AftermathLogo.png" width="256"/>
+
+At the end of the session I gave a real world example of actions that you could take to keep your devices protected. 
+
+As part of that example I mentioned a tool called Aftermath.
+
+Aftermath can be leveraged by defenders in order to collect and subsequently analyze the data from the compromised host. Aftermath can be deployed from an MDM (ideally), but it can also run independently from the infected user's command line.
+
+[Get Aftermath](https://github.com/jamf/aftermath?tab=readme-ov-file)
+
 ## Links
 
 Links to documentation to support this session
