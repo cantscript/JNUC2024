@@ -7,7 +7,7 @@
 
 Overview of entire PowerAutomate Flow
 
-<img width="256" src="https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/01.%20Protect%20School%20Connector%20Full.png">
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/01.%20Protect%20School%20Connector%20Full.png)
 
 
 
