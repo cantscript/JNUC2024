@@ -110,8 +110,7 @@ https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/1
 
 Overview of entire PowerAutomate Flow
 
-INSERT IMAGE
-
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/12.%20Remove%20Flow%20Full.png)
 
 ---
 ### 1. Trigger Block
@@ -121,7 +120,7 @@ INSERT IMAGE
 
 `{ "code": 200, "device": { "serialNumber": "ABCDEF123456", "groupId": "123" }}`
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/13.%20Remove%20Flow%20Trigger.png)
 
 ---
 ### 2. Error Handle Incoming Data
@@ -131,7 +130,7 @@ INSERT IMAGE
 * Select `is equal to` in the next drop down menu
 * Add `200` in the final box
 
-INSErT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/14.%20Remove%20Flow%20Success.png)
 
 ---
 ### 3. GET Devices API call to Jamf School
@@ -142,7 +141,7 @@ INSErT IMAGE
 * Select `serialNumber` from the data coming in from the HTTP trigger (aka script ran on the EndPoint)
 * Fill in the relivent settings, including `Authenication Type` to complete the API call (Viewthe [Jamf School API Documentation](https://school.jamfcloud.com/api/docs/) for more information on this)
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/15.%20Remove%20Flow%20GET%20Devices.png)
 
 ---
 ### 4. Error Handle API Call
@@ -152,7 +151,7 @@ INSERT IMAGE
 * Select `is equal to` in the next drop down menu
 * Add `200` in the final box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/16.%20Remove%20Flow%20API%20Success.png)
 
 ---
 ### 5. Parse JSON Object
@@ -160,7 +159,7 @@ INSERT IMAGE
 * Add a `Parse JSON` block to the `true` arm of the prevouis block
 * Provide `sample data` from the **Jamf School API** postman collection by completing a `Get Devices` call in postman and copy/pasting the reponse body into the `sample data` box
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/17.%20Remove%20Flow%20Parse%20API.png)
 
 ---
 ### 6. Create API Call To Remove Device To Static Group
@@ -172,5 +171,5 @@ INSERT IMAGE
 * Replace `<DYNAMIC VALUE>` with `UDID` from the orginal trigger
 * Fill in the relivent settings, including `Authenication Type` to complete the API call (Viewthe [Jamf School API Documentation](https://school.jamfcloud.com/api/docs/) for more information on this)
 
-INSERT IMAGE
+![](https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/18.%20Remove%20Flow%20Remove%20Group%20API.png)
 
