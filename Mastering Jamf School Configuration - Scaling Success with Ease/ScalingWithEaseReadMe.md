@@ -6,7 +6,8 @@
 
 ---
 
-## Resources
+## Resources
+
 
 [Microsoft, Google & Co: making the most of your identity provider](https://www.youtube.com/watch?v=bTAenuVf9Ng&list=PLlxHm_Px-Ie34WQu_hsfQubqBmjJUQBng&index=7)
 
