@@ -13,9 +13,21 @@ Thank you for the interest in one of my JNUC 2024 sessions. You can find details
 
 ---
 
-### Hands On Session
+### Hands On Interactive Lab
+
+If you have found your way to this page as a result of attending the Interactive Lab session, **"Configuring Jamf Teacher with Jamf School: From Zero to Hero"**,  here are some useful follow up resources
+
+LINK TO BLOG WHEN AVAILABLE <br>
+[Jamf School Documentation: Jamf Teacher Integration with Jamf School](https://learn.jamf.com/en-US/bundle/jamf-school-documentation/page/Jamf_Teacher_Integration_with_Jamf_School.html)
 
 ---
 
 ### Braindates
+
+This year I ran 2 braindates
+
+* Ask Me Anything: Mac Management with Jamf School
+* Jamf Safe Internet Deployments Tricks & Tips
+
+If you came here after attending a braindate and want to contiune chatting, hit me up on the MacAdmins slack, **@cantscript**
 
