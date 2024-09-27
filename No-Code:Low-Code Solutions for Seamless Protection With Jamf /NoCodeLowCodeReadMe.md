@@ -79,7 +79,9 @@ A real world set of actions an admin might take to further protect devices in a 
 3. Look the users 0365 account and log them out of any active sessions to prevent further access in the event of compromise
 4. Send a teams / slack / email message to the IT department with the users and device details so that IT can proactively help the user
 
-ADD SCREEN SHOT
+<p align="center">
+<img src="https://github.com/cantscript/JNUC2024/blob/main/Images/No%20Code%20Low%20Code/RealWorldExample.jpeg" width="512"/>
+</p>
 
 ---
 
