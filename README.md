@@ -31,5 +31,5 @@ This year I ran 2 braindates
 
 If you came here after attending a braindate and want to contiune chatting, hit me up on the MacAdmins slack, **@cantscript**
 
-If you are on the start of your journey managing and deploying macOS with Jamf School, you may be interested in my JNUC2023 session: [Advanced Mac Deployments with Jamf Schoo](https://www.youtube.com/watch?v=6M_1ruG6Pys&t=1354s)
+If you are on the start of your journey managing and deploying macOS with Jamf School, you may be interested in my JNUC2023 session: [Advanced Mac Deployments with Jamf School](https://www.youtube.com/watch?v=6M_1ruG6Pys&t=1354s)
 
