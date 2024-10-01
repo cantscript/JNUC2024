@@ -15,7 +15,11 @@ Thank you for the interest in one of my JNUC 2024 sessions. You can find details
 
 ### Hands On Interactive Lab
 
-If you have found your way to this page as a result of attending the Interactive Lab session, **"Configuring Jamf Teacher with Jamf School: From Zero to Hero"**,  here are some useful follow up resources
+If you have found your way to this page as a result of attending the Interactive Lab session, **"Configuring Jamf Teacher with Jamf School: From Zero to Hero"**,  
+
+If you would like to run the simulation again, you can! We recommend using Google Chrome for the best experience: [Run the Simualtion](https://jamf.it/teacherjnuc24)
+
+here are some useful follow up resources
 
 [Configuring Jamf Teacher with Jamf School: from zero to hero](https://www.jamf.com/blog/configuring-jamf-teacher-with-jamf-school/) <br>
 [Jamf School Documentation: Jamf Teacher Integration with Jamf School](https://learn.jamf.com/en-US/bundle/jamf-school-documentation/page/Jamf_Teacher_Integration_with_Jamf_School.html)
